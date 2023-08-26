@@ -1,0 +1,64 @@
+h1 {
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.BOX {
+    background-color: rgb(202, 167, 235);
+}
+
+.BOXES {
+    background-color: rgb(162, 176, 235);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+#cabecera {
+    background-image:url("https://media.sketchfab.com/models/ffb798fdd2674e6fa17d812b78708064/thumbnails/c3282f5e669c4c5b839f1e1357039883/blob.jpeg") ;
+}
+body{
+
+    background-image:url("https://wallpapercave.com/wp/kO5R1kx.jpg") ;
+}
+
+h2 {
+    background-color: aqua;
+    margin: 10px;
+
+}
+
+h3 {
+    background-color: aqua;
+    margin: 10px;
+
+}
+
+h4 {
+    background-color: aqua;
+    margin: 10px;
+
+}
+
+h5 {
+    background-color: aqua;
+    margin: 10px;
+
+}
+
+strong {
+
+    color: rgb(78, 20, 226);
+}
+
+.principal {
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(68, 29, 173);
+    border-width: 1px;
+  }

@@ -1,0 +1,31 @@
+ol {
+    background-color: #ee8787;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);}
+
+    ul {
+        background-color: #afeaa0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    li {
+        color: #333;
+        margin: 5px 0;
+    }
+
+    ul {
+        background-color: #bea0e9;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    ol {
+        background-color: #f0a2db;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }

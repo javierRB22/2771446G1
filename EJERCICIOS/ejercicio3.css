@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+h2 {
+
+    color: green;
+}
+
+strong {
+
+    color: red;
+    background-color: yellow;
+}
+
+p {
+    background-color: aqua;
+    color: blue;
+    font-size: 22px;
+
+}
+
+h3{
+
+    font-size: 13px;
+    background-color: rgb(187, 136, 235);
+    color: beige;
+}
