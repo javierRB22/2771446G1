@@ -1,0 +1,37 @@
+#caja1{
+    position:absolute;
+    background-color:red;
+    left:10px;
+    top:10px;
+    width:400px;
+    height:400px;
+    z-index:1;
+    }
+    #caja2{
+    position:absolute;
+    background-color:green;
+    left:50px;
+    top:50px;
+    width:300px;
+    height:300px;
+    z-index:3;
+    }
+
+    #caja4{ 
+    position:absolute;
+background-color:blue;
+left:30px;
+top:30px;
+width:350px;
+height:350px;
+z-index:2;
+}
+#caja4{
+position:absolute;
+background-color:rgb(166, 255, 0);
+left:200px;
+top:200px;
+width:100px;
+height:100px;
+z-index:10;
+}

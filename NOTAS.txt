@@ -1,2 +1,2 @@
 http://localhost/2771446G1/miprimerapagina.html
-http://localhost/2771446G1/EJERCICIO1/ejercicio1.html
+http://localhost/2771446G1/EJERCICIOS/ejercicio0.html
