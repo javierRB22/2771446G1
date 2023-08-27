@@ -66,9 +66,90 @@ html {
 }
 
 .contenedor1 {
-    background-color: rgb(70, 165, 243);
+    position: absolute;
+    background-color: white;
+    left: 500px;
+    top: 280px;
     width: 1500px;
     height: 500px;
-    top: 1000px;
-   
+    z-index: 1;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0c0c0c;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(47, 188, 231);
+
+}
+
+.dato {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #0c0c0c;
+    background-color: white;
+    text-align: center;
+    width: 450px;
+    height: 20px;
+}
+.dato1 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #0c0c0c;
+    background-color: white;
+    text-align: center;
+    width: 550px;
+    height: 50px;
+    left: -200px;
+}
+
+.dato3 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #0c0c0c;
+    background-color: white;
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    left: -200px;
+}
+
+.dato4 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #0c0c0c;
+    background-color: white;
+    text-align: center;
+    width: 550px;
+    height: 50px;
+    left: -200px;
+}
+.dato5 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #0c0c0c;
+    background-color: white;
+    text-align: center;
+    width: 1550px;
+    height: 250px;
+    
+}
+.dato6 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #0c0c0c;
+    background-color: white;
+    text-align: center;
+    width: 1550px;
+    height: 50px;
+    left: -200px;
 }

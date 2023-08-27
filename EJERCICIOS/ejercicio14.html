@@ -17,24 +17,31 @@
         <div class="contenedor-imagen">
             <img src="https://www.pinpng.com/pngs/m/188-1889179_significado-del-escudo-de-colombia-colombia-hd-png.png"
                 alt="">
-            </div>
-        
-    </div>
-        <div class="contenedor1">
+        </div>
 
-            <form class="formulario">
+    </div>
+
+
+    <div class="contenedor1">
+
+        <form class="formulario">
+            <div class="dato">
                 <label for="primer-apellido">Primer Apellido:</label>
                 <input type="text" id="primer-apellido" name="primer-apellido" required>
+            </div>
 
+            <div class="dato">
                 <label for="segundo-apellido">Segundo Apellido:</label>
                 <input type="text" id="segundo-apellido" name="segundo-apellido">
+            </div>
 
+            <div class="dato">
                 <label for="nombres">Nombres:</label>
                 <input type="text" id="nombres" name="nombres" required>
+            </div>
 
-                <label>Fecha de Nacimiento:</label>
-                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
 
+            <div class="dato1">
                 <label>Documento de Identidad:</label>
                 <input type="radio" id="cc" name="tipo-documento" value="cc" checked>
                 <label for="cc">CC</label>
@@ -43,13 +50,16 @@
                 <input type="radio" id="pas" name="tipo-documento" value="pas">
                 <label for="pas">PAS</label>
                 <input type="text" id="numero-documento" name="numero-documento" required>
-
+            </div>
+            <div class="dato3">
                 <label>Género:</label>
                 <input type="radio" id="femenino" name="genero" value="F">
-                <label for="femenino" class="circle"></label>
+                <label for="femenino" class="circle">M</label>
                 <input type="radio" id="masculino" name="genero" value="M">
-                <label for="masculino" class="circle"></label>
+                <label for="masculino" class="circle">F</label>
 
+            </div>
+            <div class="dato4">
                 <label>Nacionalidad:</label>
                 <input type="radio" id="colombiano" name="nacionalidad" value="colombiano" checked>
                 <label for="colombiano">Colombiano</label>
@@ -59,15 +69,15 @@
                 <label for="pais">País:</label>
                 <select id="pais" name="pais">
                     <option value="colombia">Colombia</option>
-                    <option value="otro">Otro país</option>
-                </select>
+                   
 
-                <label for="departamento">Departamento:</label>
-                <input type="text" id="departamento" name="departamento">
-
-                <label for="municipio">Municipio:</label>
-                <input type="text" id="municipio" name="municipio">
-
+            </div>
+            
+            <div class="dato5">
+                <label>Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            </div>
+            <div class="dato6">
                 <label for="direccion">Dirección de Correspondencia:</label>
                 <input type="text" id="direccion" name="direccion">
 
@@ -76,10 +86,11 @@
 
                 <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required>
+            </div>
 
                 <button type="submit">Enviar</button>
-            </form>
-        
+        </form>
+
 
 
 
