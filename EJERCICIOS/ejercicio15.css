@@ -11,24 +11,23 @@ body{
     justify-content: flex-end;
     font-family: cursive;
 }
-/* Video */
+
 video{
     position: fixed;
     min-width: 100%;
     min-height: 100%;
-
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
-/* Main */
+
 main{
     width: 100%;
     color: white;
     padding: 20px;
 }
-/* Navegation */
+
 .navigation{
     width: 1260px;
     margin: 30px;
@@ -37,7 +36,7 @@ main{
 .navigation ul{
     list-style: none;
 }
-/* Menu */
+
 .menu > li {
     position: relative;
     display: inline-block;
@@ -53,7 +52,7 @@ main{
     color: deeppink;
     background-color: rgb(220, 166, 252);
 }
-/* Submenu OS */
+
 .submenu{
     position: absolute;
     background-color: rgb(105, 255, 185);
@@ -74,7 +73,7 @@ main{
     visibility: visible;
     opacity: 1;
 }
-/* Submenu Creators */
+
 .submenu1{
     position: absolute;
     background-color: rgb(105, 255, 185);
@@ -94,4 +93,14 @@ main{
     display: block;
     visibility: visible;
     opacity: 1;
+}
+
+
+.submenu0{
+    position: absolute;
+    background-color: rgb(105, 255, 185);
+    width: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
 }
