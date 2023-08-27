@@ -1,0 +1,35 @@
+.parrafo1 {
+    
+    margin: 10px;
+    margin-bottom: 30px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #abd70b;
+}
+
+.parrafo2 {
+   
+    margin: 10px;
+    margin-bottom: 30px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #ff0000;
+}
+
+.parrafo3 {
+   
+    margin: 10px;
+    margin-bottom: 30px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #370a79;
+}
+
+.parrafo4 {
+   
+    margin: 10px;
+    margin-bottom: 30px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #5bd518;
+}
