@@ -1,0 +1,74 @@
+#caja1 {
+    position: absolute;
+    background-color: white;
+    left: 10px;
+    top: 0px;
+    width: 1500px;
+    height: 200px;
+    z-index: 1;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0c0c0c;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+#caja2 {
+    position: absolute;
+    background-color: white;
+    left: 500px;
+    top: 0px;
+    width: 1500px;
+    height: 200px;
+    z-index: 1;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0c0c0c;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+.contenedor-imagen {
+    width: 300px;
+    /* Ancho deseado para el contenedor */
+    height: 200px;
+    /* Alto deseado para el contenedor */
+    position: relative;
+
+}
+
+.contenedor-imagen img {
+    max-width: 100%;
+    /* Para asegurarse de que la imagen se ajuste al contenedor */
+    max-height: 100%;
+    position: absolute;
+    top: -210px;
+    left: 0;
+
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+}
+
+.contenedor1 {
+    background-color: rgb(70, 165, 243);
+    width: 1500px;
+    height: 500px;
+    top: 1000px;
+   
+}
